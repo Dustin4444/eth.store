@@ -486,7 +486,6 @@ func Calculate(ctx context.Context, bnAddress, elAddress, dayStr string, concurr
 				}
 				beaconchainApiGroup.Go(func() error {
 					var err error
-					log.Printf("DEBUG eth.store: fetching deposit and consolidation requests for epoch %v (slot %v)\n", i, i*slotsPerEpoch-1)
 					depositRequests, err := beaconchainApiClient.DepositRequests(ctx, beaconchainApiNetworkName, i*slotsPerEpoch-1)
 					if err != nil {
 						return fmt.Errorf("error getting depositRequests for epoch %v (slot %v): %w", i, i*slotsPerEpoch-1, err)
