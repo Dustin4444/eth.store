@@ -1,6 +1,6 @@
 module github.com/gobitfly/eth.store
 
-go 1.23.1
+go 1.25.0
 
 require (
 	github.com/attestantio/go-eth2-client v0.27.1
@@ -9,7 +9,7 @@ require (
 	github.com/prysmaticlabs/prysm/v5 v5.1.2
 	github.com/rs/zerolog v1.32.0
 	github.com/shopspring/decimal v1.3.1
-	golang.org/x/sync v0.11.0
+	golang.org/x/sync v0.20.0
 )
 
 require (
@@ -66,11 +66,11 @@ require (
 	go.opentelemetry.io/otel v1.29.0 // indirect
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
-	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa // indirect
-	golang.org/x/net v0.34.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
